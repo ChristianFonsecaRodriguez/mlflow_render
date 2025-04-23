@@ -13,4 +13,4 @@ EXPOSE $PORT
 # Backend store y artifact root se configuran vía variables de entorno
 CMD mlflow server \
      --host 0.0.0.0 \
-     --port $PORT 
+     --port 5000
